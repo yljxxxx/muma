@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{0f2a41b7-f51b-47b8-8a8a-453abd7e82e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{9f34dd18-ffc6-43c7-809d-5278cf73367c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base">
+      <UniqueIdentifier>{022fa21c-4d41-40f3-96ac-4a0615aec615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\net">
+      <UniqueIdentifier>{0f9f00a1-536c-4575-81a4-dc572e97db5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{b6334d59-e260-42c2-afbe-53dbfebbb3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\net">
+      <UniqueIdentifier>{4dec8114-17c9-4b85-b931-892ae89cc540}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\base\Event.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Mutex.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Thread.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\ThreadPool.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Timestamp.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\Buffer.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\Callbacks.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\Channel.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\EventLoop.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\EventLoopThread.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\EventLoopThreadPool.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\InetAddress.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\Poller.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\SocketsOps.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\TcpAcceptor.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\TcpServer.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\TcpSocket.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\Timer.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\TimerId.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\TimerQueue.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\TcpConnector.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\TcpConnection.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\net\TcpClient.h">
+      <Filter>include\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\Object.h">
+      <Filter>include\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\base\Thread.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\ThreadPool.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\Timestamp.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\Buffer.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\Channel.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\EventLoop.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\EventLoopThread.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\EventLoopThreadPool.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\InetAddress.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\Poller.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\SocketsOps.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\TcpAcceptor.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\TcpConnection.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\TcpServer.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\TcpSocket.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\Timer.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\TimerQueue.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\TcpConnector.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net\TcpClient.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
